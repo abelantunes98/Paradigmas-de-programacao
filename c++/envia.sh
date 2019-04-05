@@ -1,7 +1,7 @@
 echo Nome do arquivo: 
 read nome
 
-gcc $nome.cpp -o $nome
+g++ -o  $nome $nome.cpp
 
 echo Qual o codigo da questao
 read codigo
